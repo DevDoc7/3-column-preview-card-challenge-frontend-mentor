@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    /*primary colors*/
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    /*neutral colors*/
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--Very-light-gray);
+    min-height: 100vh;
+    display: grid;
+    align-items: center;
+    place-content: center;
+
+}
+
+main {
+    display: flex;
+    max-width: 100%;
+}
+
+.sedans {
+    background-color: var(--Bright-orange);
+    border-radius: 0.5rem 0 0 0.5rem;
+}
+
+.suvs {
+    background-color: var(--Dark-cyan);
+}
+
+.luxury {
+    background-color: var(--Very-dark-cyan);
+    border-radius: 0rem 0.5rem 0.5rem 0;
+}
+
+img {
+    display: block;
+    align-items: left;
+    place-content: left;
+    margin: 3rem 3rem 2rem;
+}
+
+h1 {
+    display: block;
+    color: var(--Very-light-gray);
+    text-align: left;
+    margin: 0 3rem;
+    text-transform: uppercase;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 2.5rem;
+}
+
+p {
+    display: block;
+    color: var(--Transparent-white);
+    width: 100%;
+    max-width: 12.5rem;
+    text-align: left;
+    margin: 1.75rem 3rem 2rem;
+    font-size: 0.9rem;
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.7;
+    font-weight: 200;
+    opacity: 0.9;
+    
+}
+
+button {
+    background-color: var(--Very-light-gray);
+    border-radius: 1.75rem;
+    border: hidden;
+    text-align: center;
+    padding: 0.9rem 2rem;
+    margin: 3rem 3rem;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.9rem;
+    transition: color, border, background, padding 0s ease;
+}
+
+button:hover {
+    color: var(--Very-light-gray) !important;
+    border: 0.1rem solid var(--Very-light-gray);
+    background: none;
+    padding: 0.8rem 1.9rem;
+}
+
+#button1 {
+    color: var(--Bright-orange);
+}
+
+#button2 {
+    color: var(--Dark-cyan);
+}
+
+#button3 {
+    color: var(--Very-dark-cyan);
+}
