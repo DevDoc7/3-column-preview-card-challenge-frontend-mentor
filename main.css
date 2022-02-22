@@ -93,6 +93,7 @@ button:hover {
     border: 0.1rem solid var(--Very-light-gray);
     background: none;
     padding: 0.8rem 1.9rem;
+    cursor: pointer;
 }
 
 #button1 {
