@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![https://github.com/DevDoc7/3-column-preview-card-challenge-frontend-mentor/blob/main/screenshot.jpeg](https://github.com/DevDoc7/3-column-preview-card-challenge-frontend-mentor/blob/main/screenshot.jpeg)
 
 ### Links
 
