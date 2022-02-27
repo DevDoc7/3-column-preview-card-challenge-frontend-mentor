@@ -27,25 +27,32 @@ body {
 
 main {
     display: flex;
+    flex-direction: row;
     max-width: 100%;
 }
 
 .sedans {
+    display: flex;
+    flex-direction: column;
     background-color: var(--Bright-orange);
     border-radius: 0.5rem 0 0 0.5rem;
 }
 
 .suvs {
+    display: flex;
+    flex-direction: column;
     background-color: var(--Dark-cyan);
 }
 
 .luxury {
+    display: flex;
+    flex-direction: column;
     background-color: var(--Very-dark-cyan);
     border-radius: 0rem 0.5rem 0.5rem 0;
 }
 
 img {
-    display: block;
+    max-width: min-content;
     align-items: left;
     place-content: left;
     margin: 3rem 3rem 2rem;
@@ -76,7 +83,7 @@ p {
     
 }
 
-button {
+.button {
     background-color: var(--Very-light-gray);
     border-radius: 1.75rem;
     border: hidden;
@@ -88,7 +95,7 @@ button {
     transition: color, border, background, padding 0s ease;
 }
 
-button:hover {
+.button:hover {
     color: var(--Very-light-gray) !important;
     border: 0.1rem solid var(--Very-light-gray);
     background: none;
